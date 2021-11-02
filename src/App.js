@@ -5,18 +5,10 @@ import Detail from "./components/detail";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 function App() {
   return (
-    <Router>
-      <div className="App">
-        <Switch>
-          <Route exact path="/">
-            <Dashboard />
-          </Route>
-          <Route path="/detail">
-            <Detail />
-          </Route>
-        </Switch>
-      </div>
-    </Router>
+    <div className="App">
+      <h1>Calender</h1>
+      <Dashboard />
+    </div>
   );
 }
 

@@ -1,7 +1,30 @@
 .App {
   text-align: center;
 }
-
+.eventForm {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 10px;
+  border: 2px solid blue;
+}
+.eventCard {
+  padding: 10px;
+  background-color: blue;
+  color: white;
+}
+input {
+  width: 100%;
+  margin: 10px auto;
+}
+p {
+  text-align: start;
+}
+select {
+  width: 100%;
+  margin: 10px auto;
+}
 .cardWrapper {
   display: flex;
   flex-direction: row;
@@ -11,7 +34,7 @@
 }
 .cards {
   padding: 15px;
-  width: 250px;
+  width: 200px;
   border: 2px solid black;
   margin: 10px auto;
   cursor: pointer;
