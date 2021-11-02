@@ -1,6 +1,4 @@
-import React, { useState, useEffect } from "react";
-import { useHistory } from "react-router-dom";
-import Service from "./service";
+import React, { useState } from "react";
 export default function Dashboard() {
   const [date, setDate] = useState("");
   const [time, setTime] = useState("");
